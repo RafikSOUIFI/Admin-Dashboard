@@ -10,3 +10,5 @@ In order to execute this work on your personal computer, it is necessary to foll
 npm install --legacy-peer-deps
 npm install --legacy-peer-deps react-scripts
 npm install --legacy-peer-deps react-dom
+npm install --legacy-peer-deps react
+npm start
