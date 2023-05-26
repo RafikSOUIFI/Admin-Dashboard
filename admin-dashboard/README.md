@@ -12,3 +12,7 @@ npm install --legacy-peer-deps react-scripts
 npm install --legacy-peer-deps react-dom
 npm install --legacy-peer-deps react
 npm start
+
+#To login please use:
+Email:admin@petzy.com
+password : Admin1234

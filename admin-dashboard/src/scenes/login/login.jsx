@@ -9,9 +9,10 @@ const Login = ({ setLoggedin }) => {
   const navigate = useNavigate()
   const handleFormSubmit = (values) => {
     console.log(values);
+    if(values.email.toLowerCase() == "admin@petzy.com" && values.password === "Admin1234"){
     setLoggedin(true);
     navigate("/")
-    // axios.post(`http://localhost:3000/shop/addProduct`,values).then((res)=>{setRender(!render); navigate("/products")}).catch((err)=>{console.log(err)})
+  }
   };
 
   return (
